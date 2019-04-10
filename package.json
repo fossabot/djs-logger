@@ -1,0 +1,25 @@
+{
+  "name": "djs-logger",
+  "version": "1.0.0",
+  "description": "A discord.js bot logging all messages and attachments locally.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexislours/djs-logger.git"
+  },
+  "author": "Alexis Lours",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexislours/djs-logger/issues"
+  },
+  "homepage": "https://github.com/alexislours/djs-logger#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "fs-extra": "^7.0.1",
+    "https": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
