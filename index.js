@@ -60,7 +60,7 @@ client.on('message', message => {
 
 
   //Saves attachments.
-  if (attachment != undefined) {
+  if (attachment != undefined && message.guild) {
     const destFile = __dirname + '/data/' + message.guild.name + '/' + message.channel.name + '/' + userName + '/media/' + message.createdTimestamp + path.extname(attachment.url);
     console.log('\x1b[32m%s\x1b[0m', `Saving file: ${message.createdTimestamp + path.extname(attachment.url)} (${(attachment.filesize / 1048576).toFixed(6)} Mo) from ${message.author.tag} on ${message.guild.name} ${message.channel.name}\n`);
     const url = attachment.url;
