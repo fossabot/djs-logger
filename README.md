@@ -1,4 +1,6 @@
 # djs-logger
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falexislours%2Fdjs-logger.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Falexislours%2Fdjs-logger?ref=badge_shield)
+
 
 djs-logger is a simple bot created with [discord.js](https://discord.js.org). It is used to store messages and attachments locally.
 
@@ -26,3 +28,7 @@ Attachments are saved under :
 
 UserTag is replaced by the snowflake of the user if it contains a forbidden character.
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falexislours%2Fdjs-logger.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Falexislours%2Fdjs-logger?ref=badge_large)
